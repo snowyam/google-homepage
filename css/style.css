@@ -1,0 +1,166 @@
+html {
+	font-family: "Arial", sans-serif;
+	width: 100%;
+}
+
+body {
+	background: #fff;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+}
+
+li a {
+	display: block;
+	color: #555;
+	text-align: center;
+	margin: 14px 14px;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+li a:hover {
+	text-decoration: underline;
+	color: #222;
+}
+
+li a:visited {
+	text-decoration: none;
+}
+
+input {
+	direction: ltr;
+	cursor: auto;
+	display: inline-block;
+	border: none;
+	padding: 0px;
+	margin-top: 4px;
+	padding-left: 4px;
+	height: auto;
+	width: 415px;
+	font-size: 16px;
+	line-height: 26px;
+	height: 26px;
+	outline: none;
+}
+
+form {
+	display: inline-block;
+}
+
+#nav {
+	position: fixed;
+	top: 8px;
+	width: 97%;
+}
+
+.nav-top {
+	display: inline;
+	float: right;
+}
+
+#sign {
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1px;
+	color: #fff;
+	background: #4285f4;
+	padding: 14 5 5 15;
+}
+
+#main {
+	margin-top: 200px;
+}
+
+#searchbar {
+	display: block;
+	margin: 0 auto;
+	padding: 5 9 0 9;
+	max-width: 484px;
+	height: 38px;
+	vertical-align: top;
+	border: 1px solid #d9d9d9;
+	background-color: #fff;
+}
+
+.center {
+	margin-top: 5px;
+	padding-top: 22px;
+	text-align: center;
+}
+
+#center form {
+	width: 140px;
+}
+
+input.button {
+	height: 36px;
+	line-height: 27px;
+	background: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0px 16px;
+	text-align: center;
+	align-items: flex-start;
+	box-sizing: border-box;
+	width: auto;
+	position: relative;
+	display: inline-block;
+}
+
+#foot {
+	position: absolute;
+	display: block;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	line-height: 40px;
+	color: #222;
+	margin-left: -8px;
+}
+
+#lfoot {
+ float: left;
+ padding-left: 27px;
+}
+
+#rfoot {
+	float: right;
+	padding-right: 27px;
+}
+
+.footlist a {
+	display: inline-block;
+	color: #555;
+	text-align: center;
+	text-decoration: none;
+	font-size: 10pt;
+	margin: auto;
+	padding: 0px 8px;
+}
